@@ -1,5 +1,6 @@
 import DondeEncontrarnos from "../components/DondeEncontrarnos";
 import Financiamiento from "../components/Financiamiento";
+import FormContacto from "../components/FormContacto";
 import SliderHome from "../components/SliderHome";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <SliderHome />
       <Financiamiento />
       <DondeEncontrarnos />
+      <FormContacto />
     </div>
   );
 };
