@@ -15,16 +15,36 @@ const Banner = () => {
     <>
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
-          <Image className="opacity-1" src={carousel} alt="asdas" fluid />
+          <Image
+            className="w-100"
+            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
+            alt="asdas"
+            fluid
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="opacity-1" src={carousel} alt="asdas" fluid />
+          <Image
+            className="w-100"
+            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
+            alt="asdas"
+            fluid
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="opacity-1" src={carousel} alt="asdas" fluid />
+          <Image
+            className="w-100"
+            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
+            alt="asdas"
+            fluid
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <Image className="opacity-1" src={carousel} alt="asdas" fluid />
+          <Image
+            className="w-100"
+            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
+            alt="asdas"
+            fluid
+          />
         </SwiperSlide>
       </Swiper>
     </>

@@ -2,7 +2,7 @@ import Banner from "./Banner";
 
 const SliderHome = () => {
   return (
-    <div className="bg-white ">
+    <div className="bg-white my-5 py-5">
       <div className="container ">
         <h1>
           INTERMEDIACIÓN <br /> FINANCIERA
