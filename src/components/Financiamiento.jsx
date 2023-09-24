@@ -1,3 +1,5 @@
+import SliderEquipo from "./SliderEquipo";
+
 const Financiamiento = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ const Financiamiento = () => {
           </h6>
         </div>
       </div>
+      <SliderEquipo />
     </div>
   );
 };
