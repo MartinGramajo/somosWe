@@ -5,13 +5,7 @@ import logo from "../../assets/img/circuloLogoPrueba.png";
 const NavReact = () => {
   return (
     <div className="my-5">
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        variant="light"
-        sticky="top"
-        className="bg-light"
-      >
+      <Navbar expand="lg" variant="light" sticky="top" className="bg-light">
         <Container>
           <Navbar.Brand href="/">
             <div>
@@ -28,20 +22,7 @@ const NavReact = () => {
               >
                 INICIO
               </Nav.Link>
-              <Nav.Link
-                to="/empresa"
-                as={NavLink}
-                className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
-              >
-                EMPRESA
-              </Nav.Link>
-              <Nav.Link
-                to="/productos"
-                as={NavLink}
-                className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
-              >
-                PRODUCTOS
-              </Nav.Link>
+
               <Nav.Link
                 to="/servicios"
                 as={NavLink}
