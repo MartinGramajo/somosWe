@@ -119,6 +119,32 @@
   margin-top: -110px;
 }
 
+/* View de equipo */
+.icono-equipo {
+  width: 100px;
+}
+
+.pill-btn {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.pill-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.ocultar {
+  visibility: hidden !important ;
+}
+
 /* Footer */
 .icono-footer {
   width: 150px;

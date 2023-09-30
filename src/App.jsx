@@ -5,6 +5,7 @@ import NavReact from "./components/common/NavReact";
 import Footer from "./components/common/Footer";
 import Servicios from "./views/Servicios";
 import Andres from "./views/Andres";
+import Equipo from "./views/Equipo";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/servicios" element={<Servicios />} />
+          <Route exact path="/equipo" element={<Equipo />} />
           <Route exact path="/Andres-Broullon" element={<Andres />} />
         </Routes>
       </HashRouter>
