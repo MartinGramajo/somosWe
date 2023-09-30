@@ -44,6 +44,9 @@ export default function FormContacto() {
 
   return (
     <div className="container ">
+      <div className="text-center text-white mb-4">
+        <h1>CONTACTANOS</h1>
+      </div>
       <Form
         ref={form}
         noValidate
@@ -138,12 +141,12 @@ export default function FormContacto() {
 
         <div className="d-flex justify-content-center mt-5">
           <Button
-            className="w-25 p-2 border-0 text-white color-rojo-fondo"
+            className=" p-2 border-0 btn-enviar "
             size="sm"
             type="submit"
             value="Send"
           >
-            <span className=""> ENVIAR</span>
+            <span className="text-black"> ENVIAR</span>
           </Button>
         </div>
       </Form>
