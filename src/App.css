@@ -1,7 +1,15 @@
 .logo {
   width: 150px;
   position: absolute;
-  margin-top: 0px;
+  margin-top: -70px;
+}
+
+@media (max-width: 425px) {
+  .logo {
+    width: 100px;
+    position: absolute;
+    margin-top: -50px;
+  }
 }
 
 /*icono reserva*/
@@ -92,4 +100,27 @@
 
 .foto-equipo {
   width: 300px;
+}
+
+/* Formulario */
+.btn-enviar {
+  background-color: #fff !important;
+  width: 55%;
+  border-radius: 30px !important;
+  color: black;
+}
+
+/* View de presentacion  */
+.icono-perfil {
+  width: 220px;
+}
+
+.icono-perfil-margin {
+  margin-top: -110px;
+}
+
+/* Footer */
+.icono-footer {
+  width: 150px;
+  margin-bottom: 1rem;
 }
