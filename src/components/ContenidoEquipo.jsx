@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const ContenidoEquipo = () => {
   return (
-    <div>
+    <div className="my-5">
       <article className="container bg-secondary py-5">
         <Link className="text-decoration-none " to={"/Andres-Broullon"}>
           <div className="d-flex">
