@@ -1,7 +1,10 @@
 import { Image } from "react-bootstrap";
-import perfil from "../assets/img/perfil.png";
-import perfilMujer from "../assets/img/perfil-mujer.png";
 import { Link } from "react-router-dom";
+import andres from "../assets/img/andres.png";
+import victor from "../assets/img/victor.png";
+import monica from "../assets/img/monica.png";
+import josy from "../assets/img/jasy.png";
+import javier from "../assets/img/javier.png";
 
 const ContenidoEquipo = () => {
   return (
@@ -11,7 +14,7 @@ const ContenidoEquipo = () => {
           <div className="d-flex">
             <Image
               className="icono-equipo mx-4"
-              src={perfil}
+              src={andres}
               fluid
               roundedCircle
             />
@@ -27,11 +30,11 @@ const ContenidoEquipo = () => {
         </Link>
       </article>
       <article className="container bg-white py-5">
-        <Link className="text-decoration-none " to={"/Andres-Broullon"}>
+        <Link className="text-decoration-none " to={"/Victor-Dabat-Aracil"}>
           <div className="d-flex">
             <Image
               className="icono-equipo mx-4"
-              src={perfil}
+              src={victor}
               fluid
               roundedCircle
             />
@@ -45,11 +48,14 @@ const ContenidoEquipo = () => {
         </Link>
       </article>
       <article className="container bg-secondary py-5">
-        <Link className="text-decoration-none " to={"/Andres-Broullon"}>
+        <Link
+          className="text-decoration-none "
+          to={"/Monica-Porchetto-Velazquez"}
+        >
           <div className="d-flex">
             <Image
               className="icono-equipo mx-4"
-              src={perfilMujer}
+              src={monica}
               fluid
               roundedCircle
             />
@@ -63,11 +69,11 @@ const ContenidoEquipo = () => {
         </Link>
       </article>
       <article className="container bg-white py-5">
-        <Link className="text-decoration-none " to={"/Andres-Broullon"}>
+        <Link className="text-decoration-none " to={"/Josy-Ribeiro-Da-Silva"}>
           <div className="d-flex">
             <Image
               className="icono-equipo mx-4"
-              src={perfilMujer}
+              src={josy}
               fluid
               roundedCircle
             />
@@ -81,11 +87,11 @@ const ContenidoEquipo = () => {
         </Link>
       </article>
       <article className="container bg-secondary py-5">
-        <Link className="text-decoration-none " to={"/Andres-Broullon"}>
+        <Link className="text-decoration-none " to={"/Javier-Pastor-Cobos"}>
           <div className="d-flex">
             <Image
               className="icono-equipo mx-4"
-              src={perfil}
+              src={javier}
               fluid
               roundedCircle
             />

@@ -31,11 +31,11 @@ const NavReact = () => {
                 SERVICIOS
               </Nav.Link>
               <Nav.Link
-                to="/contacto"
+                to="/equipo"
                 as={NavLink}
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
-                CONTACTO
+                EQUIPO
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

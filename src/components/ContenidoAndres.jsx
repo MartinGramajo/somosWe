@@ -7,6 +7,7 @@ const ContenidoAndres = () => {
     <div>
       <div className="text-center">
         <Image
+          className=""
           src="https://static.vecteezy.com/system/resources/previews/000/382/435/non_2x/abstract-technology-banner-template-vector.jpg"
           alt="asdasd"
           fluid

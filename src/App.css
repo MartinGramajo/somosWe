@@ -122,11 +122,31 @@ body {
 
 /* View de presentacion  */
 .icono-perfil {
-  width: 220px;
+  width: 500px;
 }
 
 .icono-perfil-margin {
-  margin-top: -110px;
+  margin-top: -220px;
+}
+
+@media (max-width: 900px) {
+  .icono-perfil {
+    width: 220px;
+  }
+
+  .icono-perfil-margin {
+    margin-top: -110px;
+  }
+}
+
+@media (max-width: 500px) {
+  .icono-perfil {
+    width: 220px;
+  }
+
+  .icono-perfil-margin {
+    margin-top: -110px;
+  }
 }
 
 /* View de equipo */
