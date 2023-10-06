@@ -1,8 +1,11 @@
 body {
-  background-image: url("../src/assets/img/bg-pagina.png");
-  background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+.bg-app {
+  background-image: url("../src/assets/img/bg-pagina.png");
+  background-size: cover;
 }
 
 .logo {

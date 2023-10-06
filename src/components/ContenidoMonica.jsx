@@ -1,8 +1,8 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import andres from "../assets/img/andres.png";
+import monica from "../assets/img/monica.png";
 
-const ContenidoAndres = () => {
+const ContenidoMonica = () => {
   return (
     <div>
       <div className="text-center">
@@ -15,21 +15,20 @@ const ContenidoAndres = () => {
       <div className="text-center ">
         <Image
           className="icono-perfil icono-perfil-margin "
-          src={andres}
+          src={monica}
           fluid
           roundedCircle
         />
       </div>
       <article className="text-black text-center container">
         <div>
-          <h3>ANDRÉS BROULLÓN</h3>
-          <h5> Fundador</h5>
+          <h3>MÓNICA PORCHETO VELÀZQUEZ</h3>
+          <h5> Puesto</h5>
           <h6>
-            Una persona dinámica, empática, profesional y muy trabajadora, y
-            sobre todo siempre con una sonrisa para ofrecer. También me
-            considero altamente exigente, trabajando codo a codo con nuestro
-            equipo de trabajo, para contagiar esta dinámica del inconformismo y
-            conseguir los mejores resultados posibles
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ipsa
+            earum tenetur tempora nulla optio distinctio odio dicta, porro sint
+            laudantium? Cum laboriosam optio consequatur labore repudiandae
+            unde, odit nihil.
           </h6>
         </div>
       </article>
@@ -58,7 +57,7 @@ const ContenidoAndres = () => {
               type="submit"
               value="Send"
             >
-              <span className="text-black"> ANDRES@WEREAL.ES</span>
+              <span className="text-black"> MONICA@WEREAL.ES</span>
             </Button>
           </div>
         </article>
@@ -67,4 +66,4 @@ const ContenidoAndres = () => {
   );
 };
 
-export default ContenidoAndres;
+export default ContenidoMonica;

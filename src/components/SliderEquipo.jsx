@@ -14,6 +14,7 @@ import victor from "../assets/img/victor.png";
 import monica from "../assets/img/monica.png";
 import josy from "../assets/img/jasy.png";
 import javier from "../assets/img/javier.png";
+import { Link } from "react-router-dom";
 
 export default function SliderEquipo() {
   return (
@@ -32,44 +33,54 @@ export default function SliderEquipo() {
         modules={[Autoplay]}
       >
         <SwiperSlide>
-          <Image
-            className="py-5 foto-equipo"
-            src={andres}
-            alt="Andrés Broullón"
-            fluid
-          />
+          <Link to="/Andres-Broullon">
+            <Image
+              className="py-5 foto-equipo"
+              src={andres}
+              alt="Andrés Broullón"
+              fluid
+            />
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="py-5 foto-equipo"
-            src={victor}
-            alt="Victor Dabat Aracil"
-            fluid
-          />
+          <Link to="/Victor-Dabat-Aracil">
+            <Image
+              className="py-5 foto-equipo"
+              src={victor}
+              alt="Victor Dabat Aracil"
+              fluid
+            />
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="py-5 foto-equipo"
-            src={monica}
-            alt="Mónica Porchetto Velázquez"
-            fluid
-          />
+          <Link to="/Monica-Porchetto-Velazquez">
+            <Image
+              className="py-5 foto-equipo"
+              src={monica}
+              alt="Mónica Porchetto Velázquez"
+              fluid
+            />
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="py-5 foto-equipo"
-            src={josy}
-            alt="Josy Ribeiro Da Silva"
-            fluid
-          />
+          <Link to="/Josy-Ribeiro-Da-Silva">
+            <Image
+              className="py-5 foto-equipo"
+              src={josy}
+              alt="Josy Ribeiro Da Silva"
+              fluid
+            />
+          </Link>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="py-5 foto-equipo"
-            src={javier}
-            alt="Javier Pastor Cobos"
-            fluid
-          />
+          <Link to="/Javier-Pastor-Cobos">
+            <Image
+              className="py-5 foto-equipo"
+              src={javier}
+              alt="Javier Pastor Cobos"
+              fluid
+            />
+          </Link>
         </SwiperSlide>
       </Swiper>
     </>
