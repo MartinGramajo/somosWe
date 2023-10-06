@@ -91,7 +91,7 @@ const ContenidoEquipo = () => {
             />
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-white ">
-                <h6>Victor Dabat Aracil</h6>
+                <h6>Javier Pastor Cobos</h6>
                 <h6 className="pill-btn">Presentación</h6>
               </div>
             </div>
