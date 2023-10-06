@@ -2,9 +2,9 @@ import ContenidoJavier from "../components/ContenidoJavier";
 
 const Javier = () => {
   return (
-    <div>
+    <section className="bg-white">
       <ContenidoJavier />
-    </div>
+    </section>
   );
 };
 

@@ -2,9 +2,9 @@ import ContenidoAndres from "../components/ContenidoAndres";
 
 const Andres = () => {
   return (
-    <div>
+    <section className="bg-white">
       <ContenidoAndres />
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import ContenidoMonica from "../components/ContenidoMonica";
 
 const Monica = () => {
   return (
-    <div>
+    <div className="bg-white">
       <ContenidoMonica />
     </div>
   );

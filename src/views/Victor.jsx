@@ -2,9 +2,9 @@ import ContenidoVictor from "../components/ContenidoVictor";
 
 const Victor = () => {
   return (
-    <div>
+    <section className="bg-white">
       <ContenidoVictor />
-    </div>
+    </section>
   );
 };
 
