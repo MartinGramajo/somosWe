@@ -1,6 +1,6 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import javier from "../assets/img/javier.png";
+import javier from "../assets/img/ja.png";
 
 const ContenidoJavier = () => {
   return (

@@ -4,7 +4,7 @@ import andres from "../assets/img/andres.png";
 import victor from "../assets/img/victor.png";
 import monica from "../assets/img/monica.png";
 import josy from "../assets/img/jasy.png";
-import javier from "../assets/img/javier.png";
+import javier from "../assets/img/ja.png";
 
 const ContenidoEquipo = () => {
   return (
