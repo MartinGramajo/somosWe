@@ -3,7 +3,7 @@ import Wsp from "../components/Wsp";
 
 const Servicios = () => {
   return (
-    <div className="">
+    <div>
       <ContenidoServicios />
       <Wsp />
     </div>

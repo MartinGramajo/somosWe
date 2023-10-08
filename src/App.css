@@ -8,6 +8,12 @@ body {
   background-size: cover;
 }
 
+.centrado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo {
   width: 150px;
   position: absolute;
