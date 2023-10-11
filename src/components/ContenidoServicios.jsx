@@ -1,6 +1,3 @@
-import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-
 const ContenidoServicios = () => {
   return (
     <div className="">
@@ -31,16 +28,12 @@ const ContenidoServicios = () => {
         </article>
         <article className="bg-secondary  py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
-              size="sm"
-              type="submit"
-              value="Send"
+            <a
+              className="p-2 border-0 btn-enviar text-center text-decoration-none"
+              href="tel:+34965362858"
             >
-              <span className="text-black"> CONTACTANOS</span>
-            </Button>
+              <span className="text-black "> CONTACTANOS</span>
+            </a>
           </div>
         </article>
       </article>
