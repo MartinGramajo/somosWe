@@ -12,7 +12,7 @@ const DondeEncontrarnos = () => {
           className="text-decoration-none"
           target="_blank"
           rel="noreferrer"
-          href="https://www.google.com.ar/maps/place/La+Estancia+Gastrohome/@38.0007523,-1.1374315,17z/data=!3m2!4b1!5s0xd6382275ff1ba93:0x4e8fbdd0c1ec1393!4m5!3m4!1s0xd63836b00d41277:0xe97ccfb5b1fef97b!8m2!3d38.0007523!4d-1.1352428"
+          href="https://www.google.com/maps/place/WeReal+Grupo+Inmobiliario/@38.3416743,-0.4959143,17z/data=!4m6!3m5!1s0xd6237e52d1b22ef:0x2891174fc0f679e2!8m2!3d38.3416743!4d-0.4933394!16s%2Fg%2F11jxd905wr?entry=ttu"
         >
           <Image className="w-100" src={donde} alt=" google maps" />
         </a>
