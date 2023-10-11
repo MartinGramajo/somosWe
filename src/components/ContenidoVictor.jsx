@@ -24,12 +24,17 @@ const ContenidoVictor = () => {
       <article className="text-black text-center container">
         <div>
           <h3>VICTOR DABAT ARACIL </h3>
-          <h5> Puesto</h5>
+          <h5> Asesor Inmobiliario - Ventas</h5>
           <h6>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            esse non sequi omnis perferendis dolorem, et odit beatae,
-            consequuntur mollitia magni sunt. Blanditiis non reprehenderit
-            repellendus odit totam ut praesentium.
+            El benjamin del equipo y me definiría como una persona alegre,
+            extrovertida, inquieta y con muchas ganas de aprender dìa a dìa para
+            crecer tanto a nivel personal como profesional. <br /> Soy también
+            una persona muy familiar, con muy buenas amistades y amante a los
+            animales. El bienestar de los mìos y de la gente que quiero es lo
+            màs en mi vida. <br />
+            De la misma manera me preocupo por los intereses de mis clientes, de
+            su bienestar y de ayudarles de la manera màs profesional posible
+            para que puedan llevar a cabo sus proyectos y objetivos.
           </h6>
         </div>
       </article>
@@ -44,7 +49,7 @@ const ContenidoVictor = () => {
               type="submit"
               value="Send"
             >
-              <span className="text-black"> 965362858</span>
+              <span className="text-black"> 644817221</span>
             </Button>
           </div>
         </article>

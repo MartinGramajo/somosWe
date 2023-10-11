@@ -23,12 +23,17 @@ const ContenidoMonica = () => {
       <article className="text-black text-center container">
         <div>
           <h3>MÓNICA PORCHETO VELÀZQUEZ</h3>
-          <h5> Puesto</h5>
+          <h5> Asesora Inmobiliaria - Capacitación</h5>
           <h6>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni ipsa
-            earum tenetur tempora nulla optio distinctio odio dicta, porro sint
-            laudantium? Cum laboriosam optio consequatur labore repudiandae
-            unde, odit nihil.
+            Me considero una persona pro-activa y con un alto nivel de
+            autoexigencia, esta característica me lleva a querer aprender todos
+            los días algo nuevo. Es para mi una satisfacción finalizar mi ida
+            habiendo aprendido <b> algo nuevo</b> ya sea en lo personal como en
+            lo profesional y cada cosa que aprendo la desarrollo para que roce
+            la perfección. Soy una Honesta, valores que traigo de familia, ese
+            rasgo ha hecho que transmita confianza por lo que pretendo que
+            sientas que puedes confiar en mi y que harè todo lo que estè a mi
+            alcance para ayudar a realizar los objetivos.
           </h6>
         </div>
       </article>
@@ -43,7 +48,7 @@ const ContenidoMonica = () => {
               type="submit"
               value="Send"
             >
-              <span className="text-black"> 965362858</span>
+              <span className="text-black"> 663737335</span>
             </Button>
           </div>
         </article>

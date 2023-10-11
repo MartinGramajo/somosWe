@@ -5,6 +5,7 @@ import victor from "../assets/img/victor.png";
 import monica from "../assets/img/monica.png";
 import josy from "../assets/img/jasy.png";
 import javier from "../assets/img/ja.png";
+import presentacion from "../assets/img/presentacion.png";
 
 const ContenidoEquipo = () => {
   return (
@@ -23,7 +24,7 @@ const ContenidoEquipo = () => {
                 <h6>
                   Andrés Broullón <span className="ocultar ">Velázquez</span>{" "}
                 </h6>
-                <h6 className="pill-btn">Presentación</h6>
+                <Image style={{ width: "20%" }} src={presentacion} fluid />
               </div>
             </div>
           </div>
@@ -41,7 +42,7 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-black ">
                 <h6>Victor Dabat Aracil</h6>
-                <h6 className="pill-btn">Presentación</h6>
+                <Image style={{ width: "20%" }} src={presentacion} fluid />
               </div>
             </div>
           </div>
@@ -62,7 +63,7 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-white">
                 <h6>Mónica Porchetto Velázquez</h6>
-                <h6 className="pill-btn">Presentación</h6>
+                <Image style={{ width: "20%" }} src={presentacion} fluid />
               </div>
             </div>
           </div>
@@ -80,7 +81,7 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-black">
                 <h6>Josy Ribeiro Da Silva</h6>
-                <h6 className="pill-btn">Presentación</h6>
+                <Image style={{ width: "20%" }} src={presentacion} fluid />
               </div>
             </div>
           </div>
@@ -98,7 +99,7 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-white ">
                 <h6>Javier Pastor Cobos</h6>
-                <h6 className="pill-btn">Presentación</h6>
+                <Image style={{ width: "20%" }} src={presentacion} fluid />
               </div>
             </div>
           </div>
