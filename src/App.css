@@ -28,6 +28,89 @@ body {
   }
 }
 
+/* slider home */
+/* Estilos para el contenedor del slider y el texto */
+.slider-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para el texto "INTERMEDIACIÓN FINANCIERA" */
+.slider-content p {
+  position: absolute;
+  margin-top: -800px;
+  margin-left: 200px;
+  margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
+  color: #f7f1f1;
+  font-size: 35px;
+  background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
+  color: #fff; /* Color del texto */
+  padding: 10px;
+}
+
+@media (max-width: 1100px) {
+  .slider-content p {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 50px;
+    margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
+    color: #f7f1f1;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .slider-content p {
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 50px;
+    margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
+    color: #f7f1f1;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider-content p {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 20px;
+    margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
+    color: #f7f1f1;
+    font-size: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .slider-content p {
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 20px;
+    margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
+    color: #f7f1f1;
+    font-size: 8px;
+    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
+    color: #fff; /* Color del texto */
+    padding: 10px;
+  }
+}
+
+/* Estilos para la imagen */
+.slider-content img {
+  max-height: 100vh; /* La imagen ocupa el 70% de la altura visible sin aplastarse */
+  width: auto; /* Esto asegura que la relación de aspecto de la imagen se mantenga */
+  max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+}
+
 /*icono reserva*/
 .icono-reserva {
   width: 230px;
@@ -63,7 +146,7 @@ body {
 }
 
 .margen-reserva2 {
-  margin-top: 320px !important;
+  margin-top: 100px !important;
 }
 
 @media (max-width: 1024px) {
@@ -78,13 +161,19 @@ body {
 
 @media (max-width: 1100px) {
   .margen-reserva2 {
-    margin-top: 320px !important;
+    margin-top: 500px !important;
   }
 }
 
 @media (max-width: 600px) {
   .margen-reserva2 {
     margin-top: 340px !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .margen-reserva2 {
+    margin-top: 300px !important;
   }
 }
 

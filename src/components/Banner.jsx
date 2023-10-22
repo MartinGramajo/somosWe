@@ -1,44 +1,48 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
+
 import { Image } from "react-bootstrap";
+import banner1 from "../assets/img/banner1.png";
+import banner2 from "../assets/img/banner2.png";
+import banner3 from "../assets/img/banner3.png";
+import banner4 from "../assets/img/banner4.png";
 
 const Banner = () => {
   return (
     <>
-      <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+      <Swiper
+        pagination={true}
+        modules={[Autoplay, Pagination]}
+        autoplay={{ delay: 3500, disableOnInteraction: false }}
+        className="mySwiper"
+      >
         <SwiperSlide>
-          <Image
-            className="w-100"
-            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
-            alt="asdas"
-            fluid
-          />
+          <div className="slider-content">
+            <p>INTERMEDIACIÓN FINANCIERA</p>
+            <Image className="w-100" src={banner1} alt="banner 1 " fluid />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="w-100"
-            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
-            alt="asdas"
-            fluid
-          />
+          <div className="slider-content">
+            <p>
+              ¿ESTÁS CANSADO DE NO PODER AHORRAR PARA TENER LA CASA QUE DESEAS?
+            </p>
+            <Image className="w-100" src={banner2} alt="banner 2 " fluid />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="w-100"
-            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
-            alt="asdas"
-            fluid
-          />
+          <div className="slider-content">
+            <p>SABES QUE TE MERECES ALGO MAS </p>
+            <Image className="w-100" src={banner3} alt="banner 3 " fluid />
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <Image
-            className="w-100"
-            src="https://bioconstruccion.com.mx/wp-content/uploads/2019/11/1911_Media_Banner_OUM-1024x380.jpg"
-            alt="asdas"
-            fluid
-          />
+          <div className="slider-content">
+            <p>¿TE GUSTARIA CONOCER MAS ACERCA DEL PLAN CREAR? </p>
+            <Image className="w-100" src={banner4} alt="banner 4 " fluid />
+          </div>
         </SwiperSlide>
       </Swiper>
     </>
