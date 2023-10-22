@@ -1,6 +1,10 @@
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import logo from "../../assets/img/circuloLogoPrueba.png";
+import face from "../../assets/img/face.png";
+import insta from "../../assets/img/insta.png";
+import youtube from "../../assets/img/youtube.png";
+import linken from "../../assets/img/linken.png";
 
 const NavReact = () => {
   return (
@@ -36,6 +40,34 @@ const NavReact = () => {
                 className="tamaño-medium ms-auto color-blanco mx-xl-2 my-auto nav-links"
               >
                 EQUIPO
+              </Nav.Link>
+              <Nav.Link
+                to="https://www.facebook.com/grupowereal"
+                as={NavLink}
+                className="tamaño-medium ms-auto color-blanco my-auto nav-links"
+              >
+                <Image src={face} alt="facebook" fluid />
+              </Nav.Link>
+              <Nav.Link
+                to="https://www.instagram.com/grupowereal/"
+                as={NavLink}
+                className="tamaño-medium ms-auto color-blanco  my-auto nav-links"
+              >
+                <Image src={insta} alt="Instagram" fluid />
+              </Nav.Link>
+              <Nav.Link
+                to="https://www.youtube.com/@werealgrupoinmobiliario2357"
+                as={NavLink}
+                className="tamaño-medium ms-auto color-blanco my-auto nav-links"
+              >
+                <Image src={youtube} alt="youtube" fluid />
+              </Nav.Link>
+              <Nav.Link
+                to="https://www.linkedin.com/company/wereal-grupo-inmobiliario/about/"
+                as={NavLink}
+                className="tamaño-medium ms-auto color-blanco  my-auto nav-links"
+              >
+                <Image src={linken} alt="linkedin" fluid />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
