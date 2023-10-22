@@ -1,8 +1,10 @@
+import Caja from "../components/Caja";
+import Cartas from "../components/Cartas";
 import DondeEncontrarnos from "../components/DondeEncontrarnos";
-import Financiamiento from "../components/Financiamiento";
 import FormContacto from "../components/FormContacto";
 import Inmoadal from "../components/Inmoadal";
 import QuieroVender from "../components/QuieroVender";
+import SliderEquipo from "../components/SliderEquipo";
 import SliderHome from "../components/SliderHome";
 import Wsp from "../components/Wsp";
 
@@ -11,7 +13,9 @@ const Home = () => {
     <div>
       <SliderHome />
       <QuieroVender />
-      <Financiamiento />
+      <Cartas />
+      <Caja />
+      <SliderEquipo />
       <DondeEncontrarnos />
       <FormContacto />
       <Wsp />

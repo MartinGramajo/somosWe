@@ -15,12 +15,18 @@ import monica from "../assets/img/monica.png";
 import josy from "../assets/img/jasy.png";
 import javier from "../assets/img/ja.png";
 import { Link } from "react-router-dom";
+import equipo from "../assets/img/equipo.png";
 
 export default function SliderEquipo() {
   return (
     <>
       <div className="text-center text-white ">
-        <h1>SOMOS WE</h1>
+        <h1 className="py-2">CONOCE A NUESTRO EQUIPO</h1>
+        <div className="d-flex justify-content-center">
+          <div className="slider-content ">
+            <Image src={equipo} alt="planificacion" fluid />
+          </div>
+        </div>
       </div>
       <Swiper
         slidesPerView={3.4}
