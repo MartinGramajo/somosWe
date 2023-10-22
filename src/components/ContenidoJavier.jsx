@@ -1,16 +1,15 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import javier from "../assets/img/ja.png";
+import banner from "../assets/img/presen-banner.png";
 
 const ContenidoJavier = () => {
   return (
     <div>
-      <div className="text-center">
-        <Image
-          src="https://static.vecteezy.com/system/resources/previews/000/382/435/non_2x/abstract-technology-banner-template-vector.jpg"
-          alt="asdasd"
-          fluid
-        />
+      <div className="d-flex justify-content-center">
+        <div className="banner-content">
+          <Image className="" src={banner} alt="banner" fluid />
+        </div>
       </div>
       <div className="text-center ">
         <Image
@@ -24,17 +23,27 @@ const ContenidoJavier = () => {
       <article className="text-black text-center container">
         <div>
           <h3>JAVIER PASTOR COBOS</h3>
-          <h5> Puesto</h5>
-          <h6>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem hic
-            error possimus, cumque iste magni vitae. Impedit adipisci numquam
-            laborum, iste accusamus alias autem tempore ipsum voluptate repellat
-            hic repellendus.
-          </h6>
+          <h4> Asesor Inmobiliario - Ventas</h4>
+          <h5 className="py-5">
+            ¿Su secreto para el éxito? ¡El aprendizaje constante y la curiosidad
+            que lo impulsan a superarse cada día! <br />
+            Javier es un orgulloso asociado de INMOADAL, y también un agente de
+            seguros de Caser. Como miembro de API, está más que preparado para
+            ofrecerle un servicio de primer nivel. <br />
+            Pero su historia no termina allí... Desde sus inicios, Javier ha
+            navegado por las aguas turbulentas del mercado inmobiliario y ha
+            aprendido que la honestidad y la excelencia son las claves para
+            superar cualquier desafío. <br />
+            Especializado en la captación de inmuebles exclusivos desde el
+            principio, Javier es un apasionado de la diversidad que ofrece el
+            mundo inmobiliario. Además, su amabilidad y empatía son sus
+            principales herramientas para construir relaciones sólidas con sus
+            clientes
+          </h5>
         </div>
       </article>
       <div className="my-4">
-        <article className="bg-secondary py-3">
+        <article className="bg-gris py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}
@@ -48,7 +57,7 @@ const ContenidoJavier = () => {
             </Button>
           </div>
         </article>
-        <article className="bg-secondary  py-3">
+        <article className="bg-gris  py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}

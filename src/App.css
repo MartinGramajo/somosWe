@@ -111,6 +111,12 @@ body {
   max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
 }
 
+.banner-content img {
+  max-height: 60vh; /* La imagen ocupa el 70% de la altura visible sin aplastarse */
+  width: auto; /* Esto asegura que la relación de aspecto de la imagen se mantenga */
+  max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+}
+
 /*icono reserva*/
 .icono-reserva {
   width: 230px;
@@ -288,6 +294,15 @@ body {
 }
 
 /* View de presentacion  */
+
+.bg-gris {
+  background-color: #82828267;
+}
+
+.bg-blanco {
+  background-color: #f1f1f1c1;
+}
+
 .icono-perfil {
   width: 500px;
 }

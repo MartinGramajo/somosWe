@@ -1,17 +1,15 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import andres from "../assets/img/andres.png";
+import banner from "../assets/img/presen-banner.png";
 
 const ContenidoAndres = () => {
   return (
     <div>
-      <div className="text-center">
-        <Image
-          className=""
-          src="https://static.vecteezy.com/system/resources/previews/000/382/435/non_2x/abstract-technology-banner-template-vector.jpg"
-          alt="asdasd"
-          fluid
-        />
+      <div className="d-flex justify-content-center">
+        <div className="banner-content">
+          <Image className="" src={banner} alt="banner" fluid />
+        </div>
       </div>
       <div className="text-center ">
         <Image
@@ -24,18 +22,18 @@ const ContenidoAndres = () => {
       <article className="text-black text-center container">
         <div>
           <h3>ANDRÉS BROULLÓN</h3>
-          <h5> Fundador</h5>
-          <h6>
+          <h4> Fundador</h4>
+          <h5 className="py-5">
             Una persona dinámica, empática, profesional y muy trabajadora, y
             sobre todo siempre con una sonrisa para ofrecer. También me
             considero altamente exigente, trabajando codo a codo con nuestro
             equipo de trabajo, para contagiar esta dinámica del inconformismo y
             conseguir los mejores resultados posibles
-          </h6>
+          </h5>
         </div>
       </article>
       <div className="my-4">
-        <article className="bg-secondary py-3">
+        <article className="bg-gris py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}
@@ -49,7 +47,7 @@ const ContenidoAndres = () => {
             </Button>
           </div>
         </article>
-        <article className="bg-secondary  py-3">
+        <article className="bg-gris  py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}

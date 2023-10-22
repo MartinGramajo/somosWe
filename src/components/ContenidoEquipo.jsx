@@ -10,7 +10,7 @@ import presentacion from "../assets/img/presentacion.png";
 const ContenidoEquipo = () => {
   return (
     <div className="my-5">
-      <article className="container bg-secondary py-5">
+      <article className="container bg-gris py-5">
         <Link className="text-decoration-none " to={"/Andres-Broullon"}>
           <div className="d-flex">
             <Image
@@ -30,7 +30,7 @@ const ContenidoEquipo = () => {
           </div>
         </Link>
       </article>
-      <article className="container bg-white py-5">
+      <article className="container bg-blanco py-5">
         <Link className="text-decoration-none " to={"/Victor-Dabat-Aracil"}>
           <div className="d-flex">
             <Image
@@ -48,7 +48,7 @@ const ContenidoEquipo = () => {
           </div>
         </Link>
       </article>
-      <article className="container bg-secondary py-5">
+      <article className="container bg-gris py-5">
         <Link
           className="text-decoration-none "
           to={"/Monica-Porchetto-Velazquez"}
@@ -69,7 +69,7 @@ const ContenidoEquipo = () => {
           </div>
         </Link>
       </article>
-      <article className="container bg-white py-5">
+      <article className="container bg-blanco py-5">
         <Link className="text-decoration-none " to={"/Josy-Ribeiro-Da-Silva"}>
           <div className="d-flex">
             <Image
@@ -87,7 +87,7 @@ const ContenidoEquipo = () => {
           </div>
         </Link>
       </article>
-      <article className="container bg-secondary py-5">
+      <article className="container bg-gris py-5">
         <Link className="text-decoration-none " to={"/Javier-Pastor-Cobos"}>
           <div className="d-flex">
             <Image

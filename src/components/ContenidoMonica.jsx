@@ -1,16 +1,15 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import monica from "../assets/img/monica.png";
+import banner from "../assets/img/presen-banner.png";
 
 const ContenidoMonica = () => {
   return (
     <div>
-      <div className="text-center">
-        <Image
-          src="https://static.vecteezy.com/system/resources/previews/000/382/435/non_2x/abstract-technology-banner-template-vector.jpg"
-          alt="asdasd"
-          fluid
-        />
+      <div className="d-flex justify-content-center">
+        <div className="banner-content">
+          <Image className="" src={banner} alt="banner" fluid />
+        </div>
       </div>
       <div className="text-center ">
         <Image
@@ -38,7 +37,7 @@ const ContenidoMonica = () => {
         </div>
       </article>
       <div className="my-4">
-        <article className="bg-secondary py-3">
+        <article className="bg-gris py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}
@@ -52,7 +51,7 @@ const ContenidoMonica = () => {
             </Button>
           </div>
         </article>
-        <article className="bg-secondary  py-3">
+        <article className="bg-gris  py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}

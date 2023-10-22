@@ -1,16 +1,15 @@
 import { Button, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import josy from "../assets/img/jasy.png";
+import banner from "../assets/img/presen-banner.png";
 
 const ContenidoJosy = () => {
   return (
     <div>
-      <div className="text-center">
-        <Image
-          src="https://static.vecteezy.com/system/resources/previews/000/382/435/non_2x/abstract-technology-banner-template-vector.jpg"
-          alt="asdasd"
-          fluid
-        />
+      <div className="d-flex justify-content-center">
+        <div className="banner-content">
+          <Image className="" src={banner} alt="banner" fluid />
+        </div>
       </div>
       <div className="text-center ">
         <Image
@@ -24,17 +23,25 @@ const ContenidoJosy = () => {
       <article className="text-black text-center container">
         <div>
           <h3>JOSY RIBEIRO DA SILVA</h3>
-          <h5> Puesto</h5>
+          <h4> Coordinadora</h4>
           <h6>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem hic
-            error possimus, cumque iste magni vitae. Impedit adipisci numquam
-            laborum, iste accusamus alias autem tempore ipsum voluptate repellat
-            hic repellendus.
+            En el corazón de WeReal, encontramos a JOSY RIBEIRO DA SILVA , una
+            inspiración que nos demuestra que la constancia y la pasión son la
+            clave para alcanzar nuestros sueños. <br />
+            Originaria de Brasil, Josy dió un gran salto de fé al mudarse a
+            España en busca de un futuro mejor. Desde entonces, ha forjado un
+            camino lleno de logros y aprendizajes que hoy la convierte en una
+            pieza fundamental de nuestro equipo. <br />
+            Josy es una verdadera polifacética, con una amplia gama de
+            profesiones y experiencia en su haber. Es la personificación de la
+            perseverancia y la dedicación. <br /> En WeReal, estamos agradecidos
+            por tenerla como coordinadora, y esperamos con ansias lo que el
+            futuro le depare a esta talentosa y apasionada profesional.
           </h6>
         </div>
       </article>
       <div className="my-4">
-        <article className="bg-secondary py-3">
+        <article className="bg-gris py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}
@@ -48,7 +55,7 @@ const ContenidoJosy = () => {
             </Button>
           </div>
         </article>
-        <article className="bg-secondary  py-3">
+        <article className="bg-gris  py-3">
           <div className="d-flex justify-content-center ">
             <Button
               as={Link}
