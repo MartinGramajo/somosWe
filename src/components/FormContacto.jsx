@@ -110,29 +110,40 @@ export default function FormContacto() {
                 </span>
               </Form.Group>
             </Row>
-            <Row>
-              <Form.Group as={Col} md="3" controlId="validationCustom03">
+            <Row className="d-flex justify-content-center">
+              <Form.Group as={Col} md="2" controlId="validationCustom03">
                 <Form.Check // prettier-ignore
                   type="checkbox"
                   label="Comprar"
+                  name="comprar"
                 />
               </Form.Group>
-              <Form.Group as={Col} md="3" controlId="validationCustom03">
+              <Form.Group as={Col} md="2" controlId="validationCustom03">
                 <Form.Check // prettier-ignore
                   type="checkbox"
                   label="Vender"
+                  name="vender"
                 />
               </Form.Group>
-              <Form.Group as={Col} md="3" controlId="validationCustom03">
+              <Form.Group as={Col} md="2" controlId="validationCustom03">
                 <Form.Check // prettier-ignore
                   type="checkbox"
                   label="Financiación"
+                  name="financiacion"
                 />
               </Form.Group>
-              <Form.Group as={Col} md="3" controlId="validationCustom03">
+              <Form.Group as={Col} md="2" controlId="validationCustom03">
+                <Form.Check // prettier-ignore
+                  type="checkbox"
+                  label="Seguros"
+                  name="seguros"
+                />
+              </Form.Group>
+              <Form.Group as={Col} md="2" controlId="validationCustom03">
                 <Form.Check // prettier-ignore
                   type="checkbox"
                   label="Otra consulta"
+                  name="otra consulta"
                 />
               </Form.Group>
             </Row>
