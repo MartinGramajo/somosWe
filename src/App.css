@@ -262,6 +262,23 @@ body {
   width: 300px;
 }
 
+/* google maps */
+.donde-map {
+  width: 500px;
+}
+
+@media (max-width: 900px) {
+  .donde-map {
+    width: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .donde-map {
+    width: 300px;
+  }
+}
+
 /* Formulario */
 .btn-enviar {
   background-color: #fff !important;
