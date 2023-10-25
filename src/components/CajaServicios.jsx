@@ -30,6 +30,47 @@ const CajaServicios = () => {
         </h5>
       </article>
       <CartasServicios />
+      <article>
+        <h3 className="text-center">Entre nuestros seguros destacados</h3>
+        <div className="row  text-center my-5">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div>
+              <div className="my-2">
+                <h5>
+                  <b>Seguro de impago de alquiler:</b> <br /> Te ayudamos a
+                  elegir a tu inquilino y te pagamos el alquiler en caso de
+                  impago de renta. Y además, te indemnizamos frente a posibles
+                  destrozos en tu vivienda.
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div>
+              <div className="my-2">
+                <h5>
+                  <b>Planes de Pensiones:</b> <br /> Aseguro tu futuro. Disfruta
+                  de tu jubilación. Elige tu plan de pensiones por edad,
+                  categoría de inversión o autor. Y ahora, si traes tu plan a
+                  Caser te llevas un 3% del importe.
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-6 col-lg-4 ">
+            <div>
+              <div className="my-2">
+                <h5>
+                  <b>Seguros para móviles:</b> <br /> Para todas las marcas y
+                  sin importar la antigüedad de tu smartphone. Reparamos tu
+                  móvil frente a los daños más habituales y te lo reponemos
+                  cuando no sea posible o te lo roben.
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
     </div>
   );
 };
