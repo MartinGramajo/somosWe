@@ -10,6 +10,7 @@ import Victor from "./views/Victor";
 import Monica from "./views/Monica";
 import Javier from "./views/Javier";
 import Josy from "./views/Josy";
+import Contacto from "./views/Contacto";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/servicios" element={<Servicios />} />
+          <Route exact path="/contacto" element={<Contacto />} />
           <Route exact path="/equipo" element={<Equipo />} />
           <Route exact path="/Andres-Broullon" element={<Andres />} />
           <Route exact path="/Victor-Dabat-Aracil" element={<Victor />} />

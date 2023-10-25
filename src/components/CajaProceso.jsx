@@ -1,12 +1,12 @@
 import { Image } from "react-bootstrap";
-import caja from "../assets/img/caja.png";
+import caja from "../assets/img/banner-proceso.png";
 import proceso from "../assets/img/proceso.png";
 
 const CajaProceso = () => {
   return (
     <div className="color-blanco-oscuro-fondo ">
       <div className="container">
-        <h3 className=" text-center" style={{ zIndex: 2 }}>
+        <h3 className=" text-center pb-2" style={{ zIndex: 2 }}>
           INTERMEDIACIÓN FINANCIERA
         </h3>
         <div className="row ">
@@ -53,7 +53,7 @@ const CajaProceso = () => {
             </div>
           </div>
           <div className="col-lg-6 col-sm-12 text-center d-flex align-items-center justify-content-center">
-            <Image src={caja} alt="caja" fluid />
+            <Image className="w-75" src={caja} alt="caja" fluid />
           </div>
         </div>
       </div>

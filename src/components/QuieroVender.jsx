@@ -19,7 +19,7 @@ export default function QuieroVender() {
   return (
     <div className="d-flex justify-content-center">
       <div className="navbar-bordes">
-        <Link className="" to="/" target="_blank" rel="noreferrer">
+        <Link className="" to="/contacto">
           <Image
             className={
               navbarPosition

@@ -44,28 +44,28 @@ const NavReact = () => {
               <Nav.Link
                 to="https://www.facebook.com/grupowereal"
                 as={NavLink}
-                className="tamaño-medium ms-auto color-blanco my-auto nav-links"
+                className="iconos-nav nav-links"
               >
                 <Image src={face} alt="facebook" fluid />
               </Nav.Link>
               <Nav.Link
                 to="https://www.instagram.com/grupowereal/"
                 as={NavLink}
-                className="tamaño-medium ms-auto color-blanco  my-auto nav-links"
+                className="iconos-nav nav-links"
               >
                 <Image src={insta} alt="Instagram" fluid />
               </Nav.Link>
               <Nav.Link
                 to="https://www.youtube.com/@werealgrupoinmobiliario2357"
                 as={NavLink}
-                className="tamaño-medium ms-auto color-blanco my-auto nav-links"
+                className=" iconos-nav nav-links"
               >
                 <Image src={youtube} alt="youtube" fluid />
               </Nav.Link>
               <Nav.Link
                 to="https://www.linkedin.com/company/wereal-grupo-inmobiliario/about/"
                 as={NavLink}
-                className="tamaño-medium ms-auto color-blanco  my-auto nav-links"
+                className=" iconos-nav nav-links"
               >
                 <Image src={linken} alt="linkedin" fluid />
               </Nav.Link>

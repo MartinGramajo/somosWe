@@ -371,3 +371,7 @@ body {
 .cartas-gradiente {
   background: linear-gradient(to bottom, #ebc706, #ffa200);
 }
+
+.iconos-nav {
+  width: 40px;
+}
