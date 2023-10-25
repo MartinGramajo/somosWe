@@ -1,4 +1,5 @@
 import Caja from "../components/Caja";
+import CanalYoutube from "../components/CanalYoutube";
 import Cartas from "../components/Cartas";
 import DondeEncontrarnos from "../components/DondeEncontrarnos";
 import FormContacto from "../components/FormContacto";
@@ -17,6 +18,7 @@ const Home = () => {
       <Caja />
       <SliderEquipo />
       <DondeEncontrarnos />
+      <CanalYoutube />
       <FormContacto />
       <Wsp />
       <Inmoadal />

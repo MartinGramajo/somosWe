@@ -12,7 +12,7 @@ const CajaServicios = () => {
         <article className="d-flex justify-content-center">
           <Image className="my-2" src={logo} alt="banner servicios" fluid />
         </article>
-        <h4 className=" text-center " style={{ zIndex: 2 }}>
+        <h4 className=" text-center mt-5" style={{ zIndex: 2 }}>
           AGENTES EXCLUSIVOS DE CASER SEGUROS
         </h4>
       </article>
@@ -74,7 +74,7 @@ const CajaServicios = () => {
       <article className="text-center">
         <h3>
           {" "}
-          Para conocer sobre la compra y alquiler puedes hacer click en :
+          Para conocer sobre <b>compra y alquiler</b> podes hacer click en :
         </h3>
         <a
           className=" text-dark"
