@@ -13,7 +13,12 @@ const Caja = () => {
 
           <div className="col-lg-6 col-sm-12 pt-lg-5 pt-0 px-5 pb-5  d-flex flex-column justify-content-center text-center">
             <div className=" d-flex align-items-center justify-content-center">
-              <Image className="w-25" src={plan} alt="planificacion" fluid />
+              <Image
+                className="icono-proceso"
+                src={plan}
+                alt="planificacion"
+                fluid
+              />
             </div>
             <h3 className=" mx-5 pt-4" style={{ zIndex: 2 }}>
               CON NUESTROS SERVICIOS DE PLAN CREAR:

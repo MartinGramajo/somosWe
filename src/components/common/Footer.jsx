@@ -1,6 +1,3 @@
-import { Image } from "react-bootstrap";
-import dkz from "../../assets/img/logodkz.png";
-
 const Footer = () => {
   return (
     <div className="mt-auto ">

@@ -7,7 +7,7 @@ export default function Cartas() {
   return (
     <div className="py-5 container ">
       <div className="cartas">
-        <Card className="carta">
+        <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
               <Image className="w-25" src={ahorros} fluid alt="icono okay" />
@@ -17,7 +17,7 @@ export default function Cartas() {
             </Card.Subtitle>
           </Card.Body>
         </Card>
-        <Card className="carta">
+        <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
               <Image
@@ -32,7 +32,7 @@ export default function Cartas() {
             </Card.Subtitle>
           </Card.Body>
         </Card>
-        <Card className="carta">
+        <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
               <Image className="w-25" src={financiar} fluid alt="icono okay" />

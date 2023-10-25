@@ -1,3 +1,4 @@
+import CajaServicios from "../components/CajaServicios";
 import ContenidoServicios from "../components/ContenidoServicios";
 import QuieroVender from "../components/QuieroVender";
 import Wsp from "../components/Wsp";
@@ -7,6 +8,7 @@ const Servicios = () => {
     <div>
       <QuieroVender />
       <ContenidoServicios />
+      <CajaServicios />
       <Wsp />
     </div>
   );
