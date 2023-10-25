@@ -71,6 +71,20 @@ const CajaServicios = () => {
           </div>
         </div>
       </article>
+      <article className="text-center">
+        <h3>
+          {" "}
+          Para conocer sobre la compra y alquiler puedes hacer click en :
+        </h3>
+        <a
+          className=" text-dark"
+          href="https://www.grupowereal.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>Comprar y alquiler</h2>
+        </a>
+      </article>
     </div>
   );
 };
