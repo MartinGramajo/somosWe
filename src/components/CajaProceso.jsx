@@ -4,7 +4,7 @@ import proceso from "../assets/img/proceso.png";
 
 const CajaProceso = () => {
   return (
-    <div className="color-blanco-oscuro-fondo ">
+    <div className="text-white">
       <div className="container">
         <h3 className=" text-center pb-2" style={{ zIndex: 2 }}>
           INTERMEDIACIÓN FINANCIERA

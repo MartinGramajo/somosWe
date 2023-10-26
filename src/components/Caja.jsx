@@ -4,7 +4,7 @@ import plan from "../assets/img/planificacion.png";
 
 const Caja = () => {
   return (
-    <div className="color-blanco-oscuro-fondo py-5 my-5">
+    <div className=" py-5 my-5">
       <div className="container">
         <div className="row ">
           <div className="col-lg-6 col-sm-12 text-center d-flex align-items-center justify-content-center">
@@ -20,10 +20,10 @@ const Caja = () => {
                 fluid
               />
             </div>
-            <h3 className=" mx-5 pt-4" style={{ zIndex: 2 }}>
+            <h3 className="text-white mx-5 pt-4" style={{ zIndex: 2 }}>
               CON NUESTROS SERVICIOS DE PLAN CREAR:
             </h3>
-            <h5 className=" py-5 ">
+            <h5 className=" py-5  text-white">
               Podrás despejarte de todas las dudas posibles, cada situación en
               la que te encuentres Estaremos para brindarte el mejor
               asesoramiento. Además, si quieres comprar la vivienda con nosotros

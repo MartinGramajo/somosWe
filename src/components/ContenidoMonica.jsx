@@ -1,5 +1,4 @@
-import { Button, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Image } from "react-bootstrap";
 import monica from "../assets/img/monica.png";
 import banner from "../assets/img/presen-banner.png";
 
@@ -19,11 +18,11 @@ const ContenidoMonica = () => {
           roundedCircle
         />
       </div>
-      <article className="text-black text-center container">
+      <article className="text-white text-center container">
         <div>
           <h3>MÓNICA PORCHETO VELÀZQUEZ</h3>
-          <h5> Asesora Inmobiliaria - Capacitación</h5>
-          <h6>
+          <h4> Asesora Inmobiliaria - Capacitación</h4>
+          <h5>
             Me considero una persona pro-activa y con un alto nivel de
             autoexigencia, esta característica me lleva a querer aprender todos
             los días algo nuevo. Es para mi una satisfacción finalizar mi ida
@@ -33,36 +32,33 @@ const ContenidoMonica = () => {
             rasgo ha hecho que transmita confianza por lo que pretendo que
             sientas que puedes confiar en mi y que harè todo lo que estè a mi
             alcance para ayudar a realizar los objetivos.
-          </h6>
+          </h5>
         </div>
       </article>
-      <div className="my-4">
-        <article className="bg-gris py-3">
+      <div className="my-4 container">
+        <article className=" py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <a
+              href="tel:+34685531671"
+              className="p-2 border-0 btn-enviar text-decoration-none text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> 663737335</span>
-            </Button>
+              <span className="text-black h5">+34685531671</span>
+            </a>
           </div>
         </article>
-        <article className="bg-gris  py-3">
+        <article className="  py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <div
+              className="p-2 border-0 btn-enviar text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> MONICA@WEREAL.ES</span>
-            </Button>
+              <span className="text-black h5"> MONICA@WEREAL.ES</span>
+            </div>
           </div>
         </article>
       </div>

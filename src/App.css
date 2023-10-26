@@ -1,6 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  color: black !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
 }
 
 .bg-app {
@@ -373,7 +378,8 @@ body {
 }
 
 .iconos-nav {
-  width: 40px;
+  width: 30px;
+  margin-top: 5px;
 }
 
 /* video */

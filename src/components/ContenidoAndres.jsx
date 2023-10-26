@@ -1,5 +1,4 @@
-import { Button, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Image } from "react-bootstrap";
 import andres from "../assets/img/andres.png";
 import banner from "../assets/img/presen-banner.png";
 
@@ -19,7 +18,7 @@ const ContenidoAndres = () => {
           roundedCircle
         />
       </div>
-      <article className="text-black text-center container">
+      <article className="text-white text-center container">
         <div>
           <h3>ANDRÉS BROULLÓN</h3>
           <h4> Fundador</h4>
@@ -32,33 +31,30 @@ const ContenidoAndres = () => {
           </h5>
         </div>
       </article>
-      <div className="my-4">
-        <article className="bg-gris py-3">
+      <div className="my-4 container">
+        <article className=" py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <a
+              href="tel:+34685531671"
+              className="p-2 border-0 btn-enviar text-decoration-none text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> 965362858</span>
-            </Button>
+              <span className="text-black h5"> +34685531671</span>
+            </a>
           </div>
         </article>
-        <article className="bg-gris  py-3">
+        <article className="  py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <div
+              className="p-2 border-0 btn-enviar text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> ANDRES@WEREAL.ES</span>
-            </Button>
+              <span className="text-black h5"> ANDRES@WEREAL.ES</span>
+            </div>
           </div>
         </article>
       </div>

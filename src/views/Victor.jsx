@@ -2,7 +2,7 @@ import ContenidoVictor from "../components/ContenidoVictor";
 
 const Victor = () => {
   return (
-    <section className="bg-white">
+    <section>
       <ContenidoVictor />
     </section>
   );

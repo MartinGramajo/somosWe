@@ -12,7 +12,7 @@ export default function Cartas() {
             <Card.Title className="text-center">
               <Image className="w-25" src={ahorros} fluid alt="icono okay" />
             </Card.Title>
-            <Card.Subtitle className="text-center">
+            <Card.Subtitle className="text-center fs-18 ">
               Con nuestro servicio ahorraras mucho dinero a largo plazo
             </Card.Subtitle>
           </Card.Body>
@@ -27,7 +27,7 @@ export default function Cartas() {
                 alt="icono okay"
               />
             </Card.Title>
-            <Card.Subtitle className="text-center">
+            <Card.Subtitle className="text-center fs-18 ">
               No tendrás porque visitar diferentes bancos para buscar opciones
             </Card.Subtitle>
           </Card.Body>
@@ -37,7 +37,7 @@ export default function Cartas() {
             <Card.Title className="text-center">
               <Image className="w-25" src={financiar} fluid alt="icono okay" />
             </Card.Title>
-            <Card.Subtitle className="text-center">
+            <Card.Subtitle className="text-center fs-18 ">
               Además, te educamos financieramente
             </Card.Subtitle>
           </Card.Body>

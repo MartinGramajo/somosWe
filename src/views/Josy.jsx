@@ -2,7 +2,7 @@ import ContenidoJosy from "../components/ContenidoJosy";
 
 const Josy = () => {
   return (
-    <section className="bg-white">
+    <section>
       <ContenidoJosy />
     </section>
   );

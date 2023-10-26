@@ -1,6 +1,5 @@
-import { Button, Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import victor from "../assets/img/victor.png";
-import { Link } from "react-router-dom";
 import banner from "../assets/img/presen-banner.png";
 
 const ContenidoVictor = () => {
@@ -20,50 +19,47 @@ const ContenidoVictor = () => {
           alt="Victor Dabat Aracil"
         />
       </div>
-      <article className="text-black text-center container">
+      <article className="text-white text-center container">
         <div>
           <h3>VICTOR DABAT ARACIL </h3>
-          <h5> Asesor Inmobiliario - Ventas</h5>
-          <h6>
+          <h4> Asesor Inmobiliario - Ventas</h4>
+          <h5>
             El benjamin del equipo y me definiría como una persona alegre,
             extrovertida, inquieta y con muchas ganas de aprender dìa a dìa para
-            crecer tanto a nivel personal como profesional. <br /> Soy también
-            una persona muy familiar, con muy buenas amistades y amante a los
+            crecer tanto a nivel personal como profesional. Soy también una
+            persona muy familiar, con muy buenas amistades y amante a los
             animales. El bienestar de los mìos y de la gente que quiero es lo
-            màs en mi vida. <br />
-            De la misma manera me preocupo por los intereses de mis clientes, de
-            su bienestar y de ayudarles de la manera màs profesional posible
-            para que puedan llevar a cabo sus proyectos y objetivos.
-          </h6>
+            màs en mi vida. De la misma manera me preocupo por los intereses de
+            mis clientes, de su bienestar y de ayudarles de la manera màs
+            profesional posible para que puedan llevar a cabo sus proyectos y
+            objetivos.
+          </h5>
         </div>
       </article>
-      <div className="my-4">
-        <article className="bg-gris py-3">
+      <div className="my-4 container">
+        <article className=" py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <a
+              href="tel:+34685531671"
+              className="p-2 border-0 btn-enviar text-decoration-none text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> 644817221</span>
-            </Button>
+              <span className="text-black h5"> +34685531671</span>
+            </a>
           </div>
         </article>
-        <article className="bg-gris  py-3">
+        <article className="  py-3">
           <div className="d-flex justify-content-center ">
-            <Button
-              as={Link}
-              to="/"
-              className="p-2 border-0 btn-enviar "
+            <div
+              className="p-2 border-0 btn-enviar text-center"
               size="sm"
               type="submit"
               value="Send"
             >
-              <span className="text-black"> VICTOR@WEREAL.ES</span>
-            </Button>
+              <span className="text-black h5"> VICTOR@WEREAL.ES</span>
+            </div>
           </div>
         </article>
       </div>

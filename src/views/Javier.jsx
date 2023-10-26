@@ -2,7 +2,7 @@ import ContenidoJavier from "../components/ContenidoJavier";
 
 const Javier = () => {
   return (
-    <section className="bg-white">
+    <section>
       <ContenidoJavier />
     </section>
   );
