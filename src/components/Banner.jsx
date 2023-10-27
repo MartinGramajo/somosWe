@@ -20,13 +20,13 @@ const Banner = () => {
       >
         <SwiperSlide>
           <div className="slider-content">
-            <p>INTERMEDIACIÓN FINANCIERA</p>
+            <p className="fs-55">INTERMEDIACIÓN FINANCIERA</p>
             <Image className="w-100" src={banner1} alt="banner 1 " fluid />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-content">
-            <p>
+            <p className="fs-55">
               ¿ESTÁS CANSADO DE NO PODER AHORRAR PARA TENER LA CASA QUE DESEAS?
             </p>
             <Image className="w-100" src={banner2} alt="banner 2 " fluid />
@@ -34,13 +34,15 @@ const Banner = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-content">
-            <p>SABES QUE TE MERECES ALGO MAS </p>
+            <p className="fs-55">SABES QUE TE MERECES ALGO MÁS... </p>
             <Image className="w-100" src={banner3} alt="banner 3 " fluid />
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="slider-content">
-            <p>¿TE GUSTARIA CONOCER MAS ACERCA DEL PLAN CREAR? </p>
+            <p className="fs-55">
+              ¿TE GUSTARIA CONOCER MAS ACERCA DEL PLAN CREAR?{" "}
+            </p>
             <Image className="w-100" src={banner4} alt="banner 4 " fluid />
           </div>
         </SwiperSlide>

@@ -4,6 +4,44 @@ body {
   color: black !important;
 }
 
+.fs-55 {
+  font-size: 35px !important;
+  font-weight: 800 !important;
+  text-shadow: #000000;
+}
+
+@media (max-width: 1100px) {
+  .fs-55 {
+    font-size: 25px !important;
+    font-weight: 800 !important;
+    text-shadow: #000000;
+  }
+}
+
+@media (max-width: 900px) {
+  .fs-55 {
+    font-size: 20px !important;
+    font-weight: 800 !important;
+    text-shadow: #000000;
+  }
+}
+
+@media (max-width: 500px) {
+  .fs-55 {
+    font-size: 11px !important;
+    font-weight: 800 !important;
+    text-shadow: #000000;
+  }
+}
+
+@media (max-width: 380px) {
+  .fs-55 {
+    font-size: 10px !important;
+    font-weight: 800 !important;
+    text-shadow: #000000;
+  }
+}
+
 .fs-18 {
   font-size: 18px !important;
 }
@@ -47,8 +85,6 @@ body {
   margin-left: 200px;
   margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
   color: #f7f1f1;
-  font-size: 35px;
-  background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
   color: #fff; /* Color del texto */
   padding: 10px;
 }
@@ -56,12 +92,10 @@ body {
 @media (max-width: 1100px) {
   .slider-content p {
     position: absolute;
-    margin-top: -500px;
+    margin-top: -450px;
     margin-left: 50px;
     margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
     color: #f7f1f1;
-    font-size: 25px;
-    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
     color: #fff; /* Color del texto */
     padding: 10px;
   }
@@ -70,12 +104,9 @@ body {
 @media (max-width: 900px) {
   .slider-content p {
     position: absolute;
-    margin-top: -350px;
+    margin-top: -330px;
     margin-left: 50px;
     margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
-    color: #f7f1f1;
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
     color: #fff; /* Color del texto */
     padding: 10px;
   }
@@ -84,12 +115,9 @@ body {
 @media (max-width: 500px) {
   .slider-content p {
     position: absolute;
-    margin-top: -170px;
+    margin-top: -150px;
     margin-left: 20px;
     margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
-    color: #f7f1f1;
-    font-size: 10px;
-    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
     color: #fff; /* Color del texto */
     padding: 10px;
   }
@@ -101,12 +129,18 @@ body {
     margin-top: -130px;
     margin-left: 20px;
     margin-right: 20px !important; /* Ajusta el margen a tu preferencia */
-    color: #f7f1f1;
-    font-size: 8px;
-    background: rgba(0, 0, 0, 0.5); /* Fondo con opacidad (ajusta el valor alpha según desees) */
     color: #fff; /* Color del texto */
     padding: 10px;
   }
+}
+
+.swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+  display: inline-block;
+  border-radius: var(--swiper-pagination-bullet-border-radius, 50%);
+  background: #ebc706 !important;
+  opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
 }
 
 /* Estilos para la imagen */
