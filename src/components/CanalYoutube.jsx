@@ -6,7 +6,7 @@ const CanalYoutube = () => {
           Tambien podes conocernos a traves de nuestro canal
         </h1>
       </div>
-      <div className="text-center video-container">
+      <div className="text-center video-container my-4">
         <iframe
           src="https://www.youtube.com/embed/eKOTuG3UHU8?si=FBVf4e5vuOG__rLp"
           title="YouTube video player"

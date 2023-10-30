@@ -1,6 +1,5 @@
 import { Image } from "react-bootstrap";
-import caja from "../assets/img/banner-proceso.png";
-import proceso from "../assets/img/proceso.png";
+import caja from "../assets/img/caja.png";
 
 const CajaProceso = () => {
   return (
@@ -10,15 +9,7 @@ const CajaProceso = () => {
           INTERMEDIACIÓN FINANCIERA
         </h3>
         <div className="row ">
-          <div className="col-lg-6 col-sm-12 pt-lg-5 pt-0 px-5 pb-5  d-flex flex-column justify-content-center text-center">
-            <div className=" d-flex align-items-center justify-content-center">
-              <Image
-                className="icono-proceso"
-                src={proceso}
-                alt="proceso"
-                fluid
-              />
-            </div>
+          <div className="col-lg-6 col-sm-12 pt-lg-5 pt-0 px-5 pb-5  d-flex flex-column justify-content-center ">
             <h3 className=" pt-4" style={{ zIndex: 2 }} id="intermediacion">
               ¿CÓMO ES EL PROCESO?
             </h3>
@@ -53,7 +44,7 @@ const CajaProceso = () => {
             </div>
           </div>
           <div className="col-lg-6 col-sm-12 text-center d-flex align-items-center justify-content-center">
-            <Image className="w-75" src={caja} alt="caja" fluid />
+            <Image className="caja-imagen-banner" src={caja} alt="caja" fluid />
           </div>
         </div>
       </div>

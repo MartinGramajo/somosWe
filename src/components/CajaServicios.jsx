@@ -77,14 +77,14 @@ const CajaServicios = () => {
           Para conocer sobre <b>compra y alquiler</b> podes hacer click en :
         </h3>
         <article className="d-flex justify-content-center ">
-          <div className="btn-enviar d-flex justify-content-center my-5 py-2">
+          <div className="btn-enviar d-flex justify-content-center my-5">
             <a
               className=" text-dark text-decoration-none"
-              href="https://www.grupowereal.com/"
+              href="https://www.wereal.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h4>Comprar y alquiler</h4>
+              <h6 className="py-2">COMPRAR / ALQUILAR</h6>
             </a>
           </div>
         </article>

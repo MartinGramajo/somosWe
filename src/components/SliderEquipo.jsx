@@ -20,10 +20,10 @@ import equipo from "../assets/img/equipo.png";
 export default function SliderEquipo() {
   return (
     <>
-      <div className="text-center text-white ">
-        <h1 className="py-2">CONOCE A NUESTRO EQUIPO</h1>
+      <div className="text-center text-white mt-5">
+        <h1 className="mt-2 mb-5">CONOCE A NUESTRO EQUIPO</h1>
         <div className="d-flex justify-content-center">
-          <div className="slider-content ">
+          <div className="slider-content mb-5">
             <Image src={equipo} alt="planificacion" fluid />
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function SliderEquipo() {
       <Swiper
         slidesPerView={3.4}
         spaceBetween={20}
-        className="mySwiper"
+        className="mySwiper mb-4"
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,

@@ -41,6 +41,14 @@ const NavReact = () => {
               >
                 EQUIPO
               </Nav.Link>
+              <a
+                href="https://www.grupowereal.com/"
+                className="text-decoration-none text-dark ms-auto color-blanco mx-xl-2 my-auto nav-links"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                COMPRAR/ALQUILAR
+              </a>
               <section className="ms-auto d-flex">
                 <div className="mx-2">
                   <a
