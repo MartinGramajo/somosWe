@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 import andres from "../assets/img/andres.png";
-import banner from "../assets/img/presen-banner.png";
+import banner from "../assets/img/banner-equipo.jpg";
 
 const ContenidoAndres = () => {
   return (

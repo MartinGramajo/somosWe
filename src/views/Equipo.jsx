@@ -1,4 +1,5 @@
 import ContenidoEquipo from "../components/ContenidoEquipo";
+import ImageCarousel from "../components/ImagenCarousel";
 import QuieroVender from "../components/QuieroVender";
 
 const Equipo = () => {
@@ -6,6 +7,7 @@ const Equipo = () => {
     <div>
       <QuieroVender />
       <ContenidoEquipo />
+      <ImageCarousel />
     </div>
   );
 };

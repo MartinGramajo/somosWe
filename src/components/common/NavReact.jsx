@@ -1,10 +1,10 @@
 import { Container, Image, Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/img/circuloLogoPrueba.png";
 import face from "../../assets/img/face.png";
 import insta from "../../assets/img/insta.png";
 import youtube from "../../assets/img/youtube.png";
 import linken from "../../assets/img/linken.png";
+import logoNav from "../../assets/img/logoNav.png";
 
 const NavReact = () => {
   return (
@@ -13,7 +13,7 @@ const NavReact = () => {
         <Container>
           <Navbar.Brand href="/">
             <div>
-              <Image className="logo " src={logo} alt="logo" fluid />
+              <Image className="logo-nav" src={logoNav} alt="logo" fluid />
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

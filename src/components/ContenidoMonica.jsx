@@ -1,6 +1,6 @@
 import { Image } from "react-bootstrap";
 import monica from "../assets/img/monica.png";
-import banner from "../assets/img/presen-banner.png";
+import banner from "../assets/img/banner-equipo.jpg";
 
 const ContenidoMonica = () => {
   return (
