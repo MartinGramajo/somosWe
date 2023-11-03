@@ -44,9 +44,6 @@ export default function FormContacto() {
 
   return (
     <div className="container ">
-      <div className="text-center text-white mb-4">
-        <h1>CONTACTANOS</h1>
-      </div>
       <Form
         ref={form}
         noValidate

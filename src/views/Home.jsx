@@ -16,7 +16,7 @@ const Home = () => {
       <BannerNew />
       <QuieroVender />
       <div className="text-center py-5 my-5 bg-azul-situaciones text-white">
-        <h1 style={{ fontSize: "60" }}>
+        <h1 className="texto-intermedacion">
           INTERMEDIACIÓN FINANCIERA - HIPOTECAS
         </h1>
       </div>
@@ -26,6 +26,9 @@ const Home = () => {
       <SliderEquipo />
       <DondeEncontrarnos />
       <CanalYoutube />
+      <div className="text-center py-5 my-5 bg-azul-situaciones text-white">
+        <h1 className="texto-intermedacion">CONTACTANOS</h1>
+      </div>
       <FormContacto />
       <Wsp />
       <Inmoadal />

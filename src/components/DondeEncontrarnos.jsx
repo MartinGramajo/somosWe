@@ -5,7 +5,9 @@ const DondeEncontrarnos = () => {
   return (
     <div>
       <div className="text-center text-white">
-        <h1 className="my-4">¿DÓNDE ENCONTRARNOS?</h1>
+        <div className="text-center py-5  bg-azul-situaciones text-white">
+          <h1 className="texto-intermedacion">¿DÓNDE ENCONTRARNOS?</h1>
+        </div>
       </div>
       <div className="">
         <a

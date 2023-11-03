@@ -10,10 +10,10 @@ export default function Cartas() {
         <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
-              <Image className="w-25" src={ahorros} fluid alt="icono okay" />
+              <Image className="w-50" src={ahorros} fluid alt="icono okay" />
             </Card.Title>
             <Card.Subtitle className="text-center fs-18 ">
-              Con nuestro servicio ahorraras mucho dinero a largo plazo
+              CON NUESTRO SERVICIO AHORRARAS MUCHO DINERO A LARGO PLAZO
             </Card.Subtitle>
           </Card.Body>
         </Card>
@@ -21,24 +21,25 @@ export default function Cartas() {
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
               <Image
-                className="w-25"
+                className="w-50"
                 src={conocimientos}
                 fluid
                 alt="icono okay"
               />
             </Card.Title>
             <Card.Subtitle className="text-center fs-18 ">
-              No tendrás porque visitar diferentes bancos para buscar opciones
+              NO TENDRÁS QUE VISITAR DIFERENTES BANCOS PARA BUSCAR OTRAS
+              OPCIONES
             </Card.Subtitle>
           </Card.Body>
         </Card>
         <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
-              <Image className="w-25" src={financiar} fluid alt="icono okay" />
+              <Image className="w-50" src={financiar} fluid alt="icono okay" />
             </Card.Title>
             <Card.Subtitle className="text-center fs-18 ">
-              Además, te educamos financieramente
+              TE EDUCAMOS FINANCIERAMENTE
             </Card.Subtitle>
           </Card.Body>
         </Card>

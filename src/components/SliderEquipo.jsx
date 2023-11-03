@@ -21,7 +21,9 @@ export default function SliderEquipo() {
   return (
     <>
       <div className="text-center text-white mt-5">
-        <h1 className="mt-2 mb-5">CONOCE A NUESTRO EQUIPO</h1>
+        <div className="text-center py-5 my-5 bg-azul-situaciones text-white">
+          <h1 className="texto-intermedacion">CONOCE A NUESTRO EQUIPO</h1>
+        </div>
         <div className="d-flex justify-content-center">
           <div className="slider-content mb-5">
             <Image src={equipo} alt="planificacion" fluid />
