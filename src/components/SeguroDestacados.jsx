@@ -35,10 +35,10 @@ const SegurosDestacados = () => {
               <article className="d-flex text-center">
                 <div>
                   <h5>
-                    <b>Planes de Pensiones:</b> <br /> Aseguro tu futuro.
-                    Disfruta de tu jubilación. Elige tu plan de pensiones por
-                    edad, categoría de inversión o autor. Y ahora, si traes tu
-                    plan a Caser te llevas un 3% del importe.
+                    <b>Seguros para móviles:</b> <br /> Para todas las marcas y
+                    sin importar la antigüedad de tu smartphone. Reparamos tu
+                    móvil frente a los daños más habituales y te lo reponemos
+                    cuando no sea posible o te lo roben.
                   </h5>
                 </div>
               </article>
