@@ -5,7 +5,7 @@ import financiar from "../assets/img/financiar.png";
 
 export default function Cartas() {
   return (
-    <div className="py-5 my-5 container ">
+    <div className="py-5  container ">
       <div className="cartas">
         <Card className="carta cartas-gradiente text-white">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">

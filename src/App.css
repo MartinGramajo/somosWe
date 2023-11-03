@@ -553,6 +553,14 @@ body {
   font-weight: 700 !important;
 }
 
+@media (max-width: 425px) {
+  .texto-nuestros-servicios {
+    font-size: 18px !important;
+    color: #fafafa;
+    font-weight: 700 !important;
+  }
+}
+
 /* Financiamiento */
 .bg-financiamiento {
   width: 85%;
