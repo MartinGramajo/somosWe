@@ -6,7 +6,7 @@ import icono3 from "../assets/img/empresa.png";
 const CartasServicios = () => {
   return (
     <div>
-      <article className="">
+      <article className="container text-white">
         <div className="row  text-center my-5">
           <div className="col-12 col-md-6 col-lg-4">
             <div>

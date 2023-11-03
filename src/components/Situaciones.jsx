@@ -78,64 +78,6 @@ const Situaciones = () => {
                   />
                 </div>
               </article>
-              {/* <article className="d-flex">
-                <div className="me-3">
-                  <Image
-                    style={{ width: "50px" }}
-                    src={etiqueta}
-                    alt="caja"
-                    fluid
-                  />
-                </div>
-                <div>
-                  <h6>
-                    En todas estas situaciones, queremos que cuentes con
-                    nosotros, porque podemos ayudarte con nuestro servicio de{" "}
-                    <b>PLAN CREAR</b>. <br />
-                    Además, si quieres comprar la vivienda con nosotros tenemos{" "}
-                    <br />
-                    una amplia variedad de opciones y lo mejor: Puedes reservar
-                    <br />
-                    la casa que te gusta y si, por alguna razón, las opciones{" "}
-                    <br />
-                    que encontramos para ti de hipotecas no te sirven, no te
-                    preocupes ¡No pierdes la reserva!
-                  </h6>
-
-                  <hr
-                    style={{
-                      width: "100%",
-                      color: "white",
-                      marginTop: "50px",
-                    }}
-                  />
-                </div>
-              </article> */}
-              {/* <article className="d-flex">
-                <div className="me-3">
-                  <Image className="" src={etiqueta} alt="caja" fluid />
-                </div>
-                <div>
-                  <h6>
-                    En todas estas situaciones, queremos que cuentes con
-                    nosotros, porque podemos ayudarte con nuestro servicio de{" "}
-                    <b>PLAN CREAR</b>. <br />
-                    Además, si quieres comprar la vivienda con nosotros tenemos
-                    una amplia variedad de opciones y lo mejor: Puedes reservar
-                    la casa que te gusta y si, por alguna razón, las opciones
-                    que encontramos para ti de hipotecas no te sirven, no te
-                    preocupes ¡No pierdes la reserva!
-                  </h6>
-
-                  <hr
-                    style={{
-                      width: "100%",
-                      color: "white",
-                      marginTop: "50px",
-                    }}
-                  />
-                </div>
-              </article> */}
             </div>
           </div>
         </div>
