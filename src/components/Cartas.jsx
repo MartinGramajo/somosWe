@@ -5,9 +5,9 @@ import financiar from "../assets/img/financiar.png";
 
 export default function Cartas() {
   return (
-    <div className="py-5  container ">
-      <div className="cartas">
-        <Card className="carta cartas-gradiente text-white">
+    <div className="py-5  container animate__animated  animate__backInLeft">
+      <div className="cartas  ">
+        <Card className="carta cartas-gradiente text-white ">
           <Card.Body className="d-flex flex-column justify-content-evenly mx-3">
             <Card.Title className="text-center">
               <Image className="w-50" src={ahorros} fluid alt="icono okay" />

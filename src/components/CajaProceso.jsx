@@ -45,12 +45,7 @@ const CajaProceso = () => {
               </div>
             </div>
             <div className="col-lg-6 col-sm-12 text-center d-flex align-items-center justify-content-center">
-              <Image
-                className="caja-imagen-banner"
-                src={caja}
-                alt="caja"
-                fluid
-              />
+              <Image className="" src={caja} alt="caja" fluid />
             </div>
           </div>
         </article>

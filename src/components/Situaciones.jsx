@@ -3,10 +3,10 @@ import etiqueta from "../assets/img/etiqueta.png";
 
 const Situaciones = () => {
   return (
-    <div className="bg-azul-situaciones mb-4">
+    <div className="bg-azul-situaciones mb-4 ">
       <div className="container text-white">
         <div>
-          <div className="py-5 text-center">
+          <div className="py-5 mb-4 text-center">
             <h2>Situaciones en las que posiblemente te encuentres:</h2>
           </div>
           <div className="row">
@@ -62,7 +62,7 @@ const Situaciones = () => {
                     una amplia variedad de opciones. Puedes reservar <br />
                     la casa que te gusta y si por alguna razón, las opciones
                     <br /> que encontramos para tu hipoteca no te sirven, no te
-                    preocupes{" "}
+                    preocupes <br />
                     <span className="texto-reserva">
                       {" "}
                       ¡No pierdes la reserva!{" "}

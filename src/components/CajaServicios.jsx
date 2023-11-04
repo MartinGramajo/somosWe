@@ -42,7 +42,7 @@ const CajaServicios = () => {
       <article className="text-center">
         <h3 className="text-white my-5">
           {" "}
-          PARA CONOCER SOBRE <b>COMPRA Y ALQUILER</b> PUEDES HACER CLICK EN: :
+          PARA CONOCER SOBRE <b>COMPRA Y ALQUILER</b> PUEDES HACER CLICK EN:
         </h3>
         <article className="d-flex justify-content-center ">
           <div className="btn-enviar d-flex justify-content-center ">
@@ -52,7 +52,7 @@ const CajaServicios = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h6 className="py-2">COMPRAR / ALQUILAR</h6>
+              <h6 className="">COMPRAR / ALQUILAR</h6>
             </a>
           </div>
         </article>
