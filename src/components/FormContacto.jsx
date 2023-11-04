@@ -16,10 +16,10 @@ export default function FormContacto() {
       e.stopPropagation();
       emailjs
         .sendForm(
-          "service_rg18144",
-          "template_httqo6d",
+          "service_w1k8y3o",
+          "template_d0f12sg",
           e.target,
-          "user_Stg5159fb3qxm0lYluqAN"
+          "0FMGwT5Q440eoo4kz"
         )
         .then(
           (result) => {
@@ -140,7 +140,7 @@ export default function FormContacto() {
                 <Form.Check // prettier-ignore
                   type="checkbox"
                   label="Otra consulta"
-                  name="otra consulta"
+                  name="consulta"
                 />
               </Form.Group>
             </Row>
