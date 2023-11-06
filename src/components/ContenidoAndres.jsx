@@ -23,11 +23,14 @@ const ContenidoAndres = () => {
           <h3>ANDRÉS BROULLÓN</h3>
           <h4> Fundador</h4>
           <h5 className="py-5">
-            Una persona dinámica, empática, profesional y muy trabajadora, y
+            Soy una persona dinámica, empática, profesional y muy trabajadora, y
             sobre todo siempre con una sonrisa para ofrecer. También me
             considero altamente exigente, trabajando codo a codo con nuestro
             equipo de trabajo, para contagiar esta dinámica del inconformismo y
-            conseguir los mejores resultados posibles
+            conseguir los mejores resultados posibles. Busco mantenerme
+            constantemente actualizado y expandir mis horizontes personales y
+            profesionales, compartiendo cada detalle, lo que asegura que nuestro
+            equipo siempre esté a la vanguardia.
           </h5>
         </div>
       </article>
