@@ -658,6 +658,16 @@ body {
   }
 }
 
+.presentacion-pills {
+  width: 16% !important;
+}
+
+@media (max-width: 600px) {
+  .presentacion-pills {
+    width: 40% !important;
+  }
+}
+
 /* View de equipo */
 .icono-equipo {
   width: 100px;

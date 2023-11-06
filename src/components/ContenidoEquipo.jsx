@@ -24,7 +24,11 @@ const ContenidoEquipo = () => {
                 <h6>
                   Andrés Broullón <span className="ocultar ">Velázquez</span>{" "}
                 </h6>
-                <Image style={{ width: "20%" }} src={presentacion} fluid />
+                <Image
+                  className="presentacion-pills"
+                  src={presentacion}
+                  fluid
+                />
               </div>
             </div>
           </div>
@@ -42,7 +46,11 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-black ">
                 <h6>Victor Dabat Aracil</h6>
-                <Image style={{ width: "20%" }} src={presentacion} fluid />
+                <Image
+                  className="presentacion-pills"
+                  src={presentacion}
+                  fluid
+                />
               </div>
             </div>
           </div>
@@ -63,7 +71,11 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-white">
                 <h6>Mónica Porchetto Velázquez</h6>
-                <Image style={{ width: "20%" }} src={presentacion} fluid />
+                <Image
+                  className="presentacion-pills"
+                  src={presentacion}
+                  fluid
+                />
               </div>
             </div>
           </div>
@@ -81,7 +93,11 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-black">
                 <h6>Josy Ribeiro Da Silva</h6>
-                <Image style={{ width: "20%" }} src={presentacion} fluid />
+                <Image
+                  className="presentacion-pills"
+                  src={presentacion}
+                  fluid
+                />
               </div>
             </div>
           </div>
@@ -99,7 +115,11 @@ const ContenidoEquipo = () => {
             <div className="d-flex justify-content-center align-items-center">
               <div className="text-white ">
                 <h6>Javier Pastor Cobos</h6>
-                <Image style={{ width: "20%" }} src={presentacion} fluid />
+                <Image
+                  className="presentacion-pills"
+                  src={presentacion}
+                  fluid
+                />
               </div>
             </div>
           </div>

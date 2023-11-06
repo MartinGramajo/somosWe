@@ -1,3 +1,4 @@
+import BtnRegresar from "../components/BtnRegresar";
 import CajaServicios from "../components/CajaServicios";
 import ContenidoServicios from "../components/ContenidoServicios";
 import QuieroVender from "../components/QuieroVender";
@@ -9,6 +10,7 @@ const Servicios = () => {
       <QuieroVender />
       <ContenidoServicios />
       <CajaServicios />
+      <BtnRegresar />
       <Wsp />
     </div>
   );
