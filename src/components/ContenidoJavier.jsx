@@ -24,18 +24,19 @@ const ContenidoJavier = () => {
           <h3>JAVIER PASTOR COBOS</h3>
           <h4> Asesor Inmobiliario - Ventas</h4>
           <h5 className="py-5">
-            ¿Su secreto para el éxito? ¡El aprendizaje constante y la curiosidad
-            que lo impulsan a superarse cada día! Javier es un orgulloso
-            asociado de INMOADAL, y también un agente de seguros de Caser. Como
-            miembro de API, está más que preparado para ofrecerle un servicio de
-            primer nivel. Pero su historia no termina allí... Desde sus inicios,
-            Javier ha navegado por las aguas turbulentas del mercado
-            inmobiliario y ha aprendido que la honestidad y la excelencia son
-            las claves para superar cualquier desafío. Especializado en la
-            captación de inmuebles exclusivos desde el principio, Javier es un
-            apasionado de la diversidad que ofrece el mundo inmobiliario.
-            Además, su amabilidad y empatía son sus principales herramientas
-            para construir relaciones sólidas con sus clientes
+            ¿Cuál es su secreto para el éxito? ¡El aprendizaje constante y la
+            curiosidad que lo impulsan a superarse cada día! Javier es un
+            orgulloso asociado de INMOADAL, y también un agente de seguros de
+            Caser. Como miembro de API, está más que preparado para ofrecerle un
+            servicio de primer nivel. Pero su historia no termina allí... Desde
+            sus inicios, Javier ha navegado por las aguas turbulentas del
+            mercado inmobiliario y ha aprendido que la honestidad y la
+            excelencia son las claves para superar cualquier desafío.
+            Especializado en la captación de inmuebles exclusivos desde el
+            principio, Javier es un apasionado de la diversidad que ofrece el
+            mundo inmobiliario. Además, su amabilidad y empatía son sus
+            principales herramientas para construir relaciones sólidas con sus
+            clientes
           </h5>
         </div>
       </article>

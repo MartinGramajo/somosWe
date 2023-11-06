@@ -24,7 +24,7 @@ const ContenidoVictor = () => {
           <h3>VICTOR DABAT ARACIL </h3>
           <h4> Asesor Inmobiliario - Ventas</h4>
           <h5>
-            El benjamin del equipo y me definiría como una persona alegre,
+            Soy el "benjamín" del equipo y me definiría como una persona alegre,
             extrovertida, inquieta y con muchas ganas de aprender dìa a dìa para
             crecer tanto a nivel personal como profesional. Soy también una
             persona muy familiar, con muy buenas amistades y amante a los
