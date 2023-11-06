@@ -30,7 +30,7 @@ const Banner = () => {
           <div className="slider-content">
             <p className="fs-55 ">
               ¿ESTÁS CANSADO DE NO <br /> PODER AHORRAR PARA <br /> TENER LA
-              CASA QUE DESEAS?
+              VIVIENDA QUE DESEAS?
             </p>
             <Image className="w-100" src={banner2} alt="banner 2 " fluid />
           </div>

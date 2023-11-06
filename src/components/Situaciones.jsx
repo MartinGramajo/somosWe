@@ -27,8 +27,8 @@ const Situaciones = () => {
                     entidad no te sirve. <br />
                     - Tienes las condiciones pero no sabes como hacerlo. <br />
                     - No tienes tiempo para ver la mejor opción para ti. <br />
-                    - Tienes en mente una casa, pero no quieres reservar porque
-                    no sabes si te darán el préstamo. <br />
+                    - Tienes en mente una vivienda, pero no quieres reservar
+                    porque no sabes si te darán el préstamo. <br />
                   </h5>
 
                   <hr
@@ -60,7 +60,7 @@ const Situaciones = () => {
                     <b>PLAN CREAR</b>. Además, si quieres comprar la vivienda
                     con nosotros tenemos <br />
                     una amplia variedad de opciones. Puedes reservar <br />
-                    la casa que te gusta y si por alguna razón, las opciones
+                    la vivienda que te gusta y si por alguna razón, las opciones
                     <br /> que encontramos para tu hipoteca no te sirven, no te
                     preocupes <br />
                     <span className="texto-reserva">
